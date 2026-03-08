@@ -1,0 +1,69 @@
+2026-03-08 16:36:41,264 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 1 using chrome-----------------
+2026-03-08 16:36:43,413 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:36:43,613 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Using any credentials
+2026-03-08 16:36:44,773 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Clear both inputs
+2026-03-08 16:36:45,369 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:36:45,563 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the error message
+2026-03-08 16:36:45,617 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Verifiying that the error message is the expected one: "Username is required"
+2026-03-08 16:36:45,646 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 1 using chrome-----------------
+2026-03-08 16:36:46,405 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 1 using edge-----------------
+2026-03-08 16:36:49,225 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:36:50,186 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Using any credentials
+2026-03-08 16:36:50,602 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Clear both inputs
+2026-03-08 16:36:51,164 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:36:51,342 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the error message
+2026-03-08 16:36:51,388 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Verifiying that the error message is the expected one: "Username is required"
+2026-03-08 16:36:51,388 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 1 using edge-----------------
+2026-03-08 16:36:51,950 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 1 using firefox-----------------
+2026-03-08 16:37:02,664 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:37:04,624 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Using any credentials
+2026-03-08 16:37:04,817 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Clear both inputs
+2026-03-08 16:37:05,168 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:37:05,285 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the error message
+2026-03-08 16:37:05,314 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Verifiying that the error message is the expected one: "Username is required"
+2026-03-08 16:37:05,315 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 1 using firefox-----------------
+2026-03-08 16:37:07,092 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 2 using chrome----------------
+2026-03-08 16:37:09,063 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:37:09,861 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Using any credentials
+2026-03-08 16:37:10,209 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Clear the "Password" input
+2026-03-08 16:37:10,452 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:37:10,638 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the error message
+2026-03-08 16:37:10,692 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Verifiying that the error message is the expected one: "Password is required"
+2026-03-08 16:37:10,692 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 2 using chrome -----------------
+2026-03-08 16:37:11,063 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 2 using edge----------------
+2026-03-08 16:37:13,665 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:37:14,486 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Using any credentials
+2026-03-08 16:37:14,812 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Clear the "Password" input
+2026-03-08 16:37:15,035 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:37:15,159 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the error message
+2026-03-08 16:37:15,210 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Verifiying that the error message is the expected one: "Password is required"
+2026-03-08 16:37:15,210 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 2 using edge -----------------
+2026-03-08 16:37:15,639 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 2 using firefox----------------
+2026-03-08 16:37:29,756 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:37:31,773 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Using any credentials
+2026-03-08 16:37:32,431 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Clear the "Password" input
+2026-03-08 16:37:32,671 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:37:32,829 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the error message
+2026-03-08 16:37:33,014 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Verifiying that the error message is the expected one: "Password is required"
+2026-03-08 16:37:33,014 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 2 using firefox -----------------
+2026-03-08 16:37:37,519 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 3 using chrome----------------
+2026-03-08 16:37:41,419 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:37:42,512 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Login with the accepted credentials: Username: standard_user, Password: secret_sauce
+2026-03-08 16:37:43,529 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:37:44,000 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the title from the page that is opened when accepted credentials are used
+2026-03-08 16:37:44,105 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Validate the title "Swag Labs" in the dashboard.
+2026-03-08 16:37:44,105 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 3 using chrome-----------------
+2026-03-08 16:37:44,852 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 3 using edge----------------
+2026-03-08 16:37:48,485 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:37:49,701 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Login with the accepted credentials: Username: standard_user, Password: secret_sauce
+2026-03-08 16:37:50,318 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:37:50,744 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the title from the page that is opened when accepted credentials are used
+2026-03-08 16:37:50,839 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Validate the title "Swag Labs" in the dashboard.
+2026-03-08 16:37:50,839 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 3 using edge-----------------
+2026-03-08 16:37:51,342 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- Start of test case 3 using firefox----------------
+2026-03-08 16:37:59,488 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Navigating to https://www.saucedemo.com/
+2026-03-08 16:38:01,374 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Login with the accepted credentials: Username: standard_user, Password: secret_sauce
+2026-03-08 16:38:01,715 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Hit the "Login" button
+2026-03-08 16:38:02,167 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Get the title from the page that is opened when accepted credentials are used
+2026-03-08 16:38:02,263 [ParallelWorker#1] INFO FinalTask.Tests.Tests - Validate the title "Swag Labs" in the dashboard.
+2026-03-08 16:38:02,263 [ParallelWorker#1] INFO FinalTask.Tests.Tests - -------------- End of test case 3 using firefox-----------------
