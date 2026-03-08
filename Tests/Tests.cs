@@ -6,8 +6,6 @@ using OpenQA.Selenium;
 
 namespace FinalTask.Tests
 {
-   // [TestFixture]
-   // [Parallelizable(ParallelScope.All)]
     public class Tests
     {
         IWebDriver ?driver;
