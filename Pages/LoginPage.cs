@@ -1,63 +1,52 @@
 ﻿using OpenQA.Selenium;
-using OpenQA.Selenium.Interactions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FinalTask.Pages
 {
-    public class LoginPage
+    public class LoginPage : BasePage
     {
-        private readonly IWebDriver _driver;
-
-        public LoginPage(IWebDriver driver) 
-        {
-            _driver = driver;
-        }
-
         //Locators
         private readonly By usernameField = By.CssSelector("#user-name");
         private readonly By passwordField = By.CssSelector("#password");
         private readonly By loginButton = By.CssSelector("#login-button");
         private readonly By errorContainer = By.CssSelector(".error-message-container");
 
+        public LoginPage(IWebDriver driver) : base(driver) 
+        {
+        }
 
-        //Methods
+        public void Navigate() 
+        {
+            driver.Navigate().GoToUrl("https://www.saucedemo.com/");
+        }
+
         public void EnterUsername(string username)
         {
-            _driver.FindElement(usernameField).SendKeys(username);
+            EnterText(usernameField, username);
         }
 
         public void EnterPassword(string password)
         {
-            _driver.FindElement(passwordField).SendKeys(password);
+            EnterText(passwordField, password);
         }
 
-        public void ClearUserName()
+        public void ClickLoginButton() 
         {
-            _driver.FindElement(usernameField).Clear();
-            _driver.FindElement(usernameField).SendKeys(" ");
-            _driver.FindElement(usernameField).SendKeys(Keys.Backspace);
+            Click(loginButton);
+        }
+
+        public void ClearUserName() 
+        {
+            clearField(usernameField);
         }
 
         public void ClearPassword()
         {
-            _driver.FindElement(passwordField).Clear();
-            _driver.FindElement(passwordField).SendKeys(" ");
-            _driver.FindElement(passwordField).SendKeys(Keys.Backspace);
+            clearField(passwordField);
         }
 
-        public void ClickLogin() 
+        public string GetError() 
         {
-            _driver.FindElement(loginButton).Click();
-        }
-
-        public string GetErrorMessage()
-        {
-            var errorMessage = _driver.FindElement(errorContainer);
-            return errorMessage.Text;
+            return GetText(errorContainer);
         }
     }
 }
