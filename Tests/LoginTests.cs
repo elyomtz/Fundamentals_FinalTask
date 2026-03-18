@@ -99,8 +99,7 @@ namespace FinalTask.Tests
                 log.Info("Verifiying that the error message is the expected one: \"Username is required\"");
 
                 //Assert
-                ErrorMessage.Should().Contain("Hola");  //assertion using Fluent Assertions
-                //"Username is required"
+                ErrorMessage.Should().Contain("Username is required");  //assertion using Fluent Assertions
             }
             catch (Exception ex)
             {
